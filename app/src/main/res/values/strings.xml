@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HDWalls</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_favourites">Favourites</string>
+    <string name="nav_settings">Settings</string>
+    <string name="notsigned">GUEST</string>
+</resources>

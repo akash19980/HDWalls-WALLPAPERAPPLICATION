@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="40dp"
+android:padding="20dp"
+    app:cardPreventCornerOverlap="false">
+
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:text="Marvel"
+            android:background="@color/colorCategorybackground"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/text_view_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="52dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="300dp"
+            android:showDividers="middle">
+
+
+
+
+                <CheckBox
+                    android:id="@+id/checkbox_favourite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentBottom="true"
+
+                    android:button="@drawable/checkbox_selector" />
+        </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
